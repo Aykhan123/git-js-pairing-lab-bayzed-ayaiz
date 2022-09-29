@@ -62,3 +62,36 @@ function isNegative(inter){
 }
 isNegative(-5)
     
+    
+//#8
+function triangleArea(base,height) {
+   const areaOfTriangle = 0.5 * base * height
+   console.log(areaOfTriangle)
+}
+triangleArea(5,7)
+
+//#9
+function betweenTwentyAndForty(integer) {
+    if (integer >20 && integer < 40) {
+        console.log(true)
+    } else {
+        console.log(false)
+    }
+};
+betweenTwentyAndForty(14)
+
+//#10
+function largest(num1,num2,num3) {
+    const big = Math.max(num1,num2,num3)
+    console.log(big)
+}
+largest(15,20,30)
+
+//#11
+function printTime() {
+    var Today = new Date()
+    return Today.getHours()+":"+Today.getMinutes()+":"+ Today.getSeconds();
+}
+console.log(printTime());
+
+//#12
