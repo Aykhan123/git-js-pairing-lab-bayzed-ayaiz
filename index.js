@@ -50,3 +50,15 @@ function add(int1,int2) {
   }
 }
 add(5,5)
+
+//7
+
+function isNegative(inter){
+    if (Math.sign(inter) === 1){
+        console.log(true)
+    }else {
+        console.log(false)
+    }
+}
+isNegative(-5)
+    
