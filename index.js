@@ -17,7 +17,7 @@ multiplesOfThree();
 function multiplesOfThreeOrFive(){
     for (let i = 3; i <=100; i += 1){
         if ((i % 3 ===0) || (i % 5 ===0 )){
-            console.log(i)
+           // console.log(i)
         }
     }
     
@@ -29,6 +29,12 @@ function untilNum(num){
     for (let i = 1; i <= num; i += 1)
     console.log(i)
 }
-untilNum(15)
+//untilNum(15)
 
 //#5
+function multiply(num1, num2){
+    const product = num1 * num2
+    console.log(product)
+
+}
+multiply(5,10)
