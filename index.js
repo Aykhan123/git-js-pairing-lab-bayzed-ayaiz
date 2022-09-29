@@ -38,3 +38,15 @@ function multiply(num1, num2){
 
 }
 multiply(5,10)
+
+//#6
+function add(int1,int2) {
+  if (int1 === int2) {
+      const intcube = Math.pow(int1,3)
+      console.log(intcube)
+  } else {
+      const intsum = int1 + int2
+      console.log(intsum)
+  }
+}
+add(5,5)
