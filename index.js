@@ -95,3 +95,4 @@ function printTime() {
 console.log(printTime());
 
 //#12
+
